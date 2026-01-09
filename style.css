@@ -291,13 +291,15 @@ header{
     transition: 0.5s;
    } 
    .home-text{
-    width:500px ;
+    width:500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
    }
-
+    .home-text h1{
+        text-align: center;
+    }
    .home-img{
     display: none;
    }
@@ -310,6 +312,16 @@ header{
     
    }
    .navbar a:hover{
-    color: #fff4f3;
+    color: var(--main-color);
+    background: none;
    }
+
+}
+@media (max-width:415px){
+    .contact-form form input, textarea{
+        width: auto;
+    }
+    .home{
+        display: flex;
+    }
 }
