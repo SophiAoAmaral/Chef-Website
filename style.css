@@ -211,3 +211,45 @@ header{
 .chef-box .text p{
     margin: 0.4rem 0;
 }
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form input, textarea{
+    width: 400px;
+    padding: 14px;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    background:#fff4f3 ;
+
+}
+
+.contact-form form  textarea{
+    resize: none;
+    height: 200px;
+}
+
+ .contact-form form .contact-button{
+    font-weight: 500;
+    color: white;
+    background: var(--main-color);
+    cursor: pointer;
+}
+ .contact-form form .contact-button:hover{
+    background: #fc5552;
+}
+
+.copyright{
+    padding:20px;
+    text-align: center;
+}
